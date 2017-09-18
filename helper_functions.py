@@ -40,7 +40,8 @@ class Song(object):
 
 
 def random_song(list_of_song_objs):
-    '''Function to get a random song from a list of song objects and return an identifiable tuple about the song'''
+    '''Function to get a random song from a list of song'''
+    ''' objects and return an identifiable tuple about the song'''
     song_picked = random.choice(list_of_song_objs)
     # just return track name and artist tuple for identification
     print(song_picked.track, song_picked.artist)
